@@ -1,0 +1,19 @@
+部署说明
+
+
+1.安装nginx
+配置nginx.conf
+location / {
+                include uwsgi_params;
+                            uwsgi_pass  ip:port;
+                                    }
+
+2.安装python2.7或以上
+
+3.安装uwsgi:
+ pip install uwsgi
+
+ 4.安装 MySQLdb:
+  pip install MySQL-python
+
+  5.安装python包：flask,flask_restful,numpy,redis,psycopg2,pandas,sklearn,boto3,kazoo,DBUtils,implicit,copy,scipy

@@ -1,0 +1,1970 @@
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 14:55:57 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fbe81500a30
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fbe81500a30 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1279, cores: 2)
+spawned uWSGI worker 2 (pid: 1280, cores: 2)
+spawned uWSGI worker 3 (pid: 1281, cores: 2)
+spawned uWSGI worker 4 (pid: 1282, cores: 2)
+Python auto-reloader enabled
+{address space usage: 2553593856 bytes/2435MB} {rss usage: 16158720 bytes/15MB} [pid: 1280|app: 0|req: 1/1] 172.16.0.195 () {32 vars in 644 bytes} [Fri Feb 24 14:57:47 2017] GET /test => generated 267 bytes in 238 msecs (HTTP/1.1 301) 3 headers in 137 bytes (2 switches on core 0)
+{address space usage: 2553593856 bytes/2435MB} {rss usage: 16453632 bytes/15MB} [pid: 1280|app: 0|req: 2/2] 172.16.0.195 () {32 vars in 646 bytes} [Fri Feb 24 14:57:47 2017] GET /test/ => generated 19 bytes in 244 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+{address space usage: 2553593856 bytes/2435MB} {rss usage: 16506880 bytes/15MB} [pid: 1280|app: 0|req: 3/3] 172.16.0.195 () {32 vars in 623 bytes} [Fri Feb 24 14:57:48 2017] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (2 switches on core 0)
+{address space usage: 2553593856 bytes/2435MB} {rss usage: 16510976 bytes/15MB} [pid: 1280|app: 0|req: 4/4] 172.16.0.195 () {24 vars in 295 bytes} [Fri Feb 24 14:58:04 2017] GET /test => generated 267 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 137 bytes (2 switches on core 1)
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 10076160 bytes/9MB} [pid: 1282|app: 0|req: 1/5] 172.16.0.195 () {24 vars in 297 bytes} [Fri Feb 24 14:58:07 2017] GET /test/ => generated 19 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+{address space usage: 2553593856 bytes/2435MB} {rss usage: 16510976 bytes/15MB} [pid: 1280|app: 0|req: 5/6] 172.16.0.195 () {24 vars in 297 bytes} [Fri Feb 24 14:58:30 2017] GET /test/ => generated 19 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+DEBUG:root:mesh_id:[58502561] Begin Connect
+newnewnewnew
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+2 99
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 15020032 bytes/14MB} [pid: 1279|app: 0|req: 1/7] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 14:59:26 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 121 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+DEBUG:root:mesh_id:[58502561] Begin Connect
+newnewnewnew
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+2 99
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2553593856 bytes/2435MB} {rss usage: 17158144 bytes/16MB} [pid: 1280|app: 0|req: 6/8] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:01:01 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 352 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+DEBUG:root:mesh_id:[58502561] Begin Connect
+newnewnewnew
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+2 99
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 15056896 bytes/14MB} [pid: 1279|app: 0|req: 2/9] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:01:02 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 283 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+DEBUG:root:mesh_id:[58502561] Begin Connect
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2553856000 bytes/2435MB} {rss usage: 17182720 bytes/16MB} [pid: 1280|app: 0|req: 7/10] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:01:03 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 122 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+DEBUG:root:mesh_id:[58502561] Begin Connect
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 15093760 bytes/14MB} [pid: 1279|app: 0|req: 3/11] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:01:04 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 773 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+DEBUG:root:mesh_id:[58502561] Begin Connect
+newnewnewnew
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+2 99
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2553856000 bytes/2435MB} {rss usage: 17195008 bytes/16MB} [pid: 1280|app: 0|req: 8/12] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:01:04 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 383 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+DEBUG:root:mesh_id:[58502561] Begin Connect
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 15130624 bytes/14MB} [pid: 1279|app: 0|req: 4/13] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:01:49 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 76 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+DEBUG:root:mesh_id:[58502561] Begin Connect
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 15048704 bytes/14MB} [pid: 1282|app: 0|req: 2/14] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:01:50 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 288 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+DEBUG:root:mesh_id:[58502561] Begin Connect
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2553856000 bytes/2435MB} {rss usage: 17203200 bytes/16MB} [pid: 1280|app: 0|req: 9/15] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:01:51 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 214 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1279)...
+Gracefully killing worker 2 (pid: 1280)...
+Gracefully killing worker 3 (pid: 1281)...
+Gracefully killing worker 4 (pid: 1282)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+DEBUG:root:mesh_id:[58502561] Begin Connect
+newnewnewnew
+DEBUG:root:mesh_id:[58502561] user not in redis _tt_User.
+2 99
+DEBUG:root:[58502561] match result user:[]
+{address space usage: 2552102912 bytes/2433MB} {rss usage: 15126528 bytes/14MB} [pid: 1279|app: 0|req: 5/16] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:11:17 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 673 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 2 buried after 16 seconds
+worker 1 buried after 16 seconds
+Fri Feb 24 15:12:03 2017 - worker 3 (pid: 1281) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:12:03 2017 - worker 4 (pid: 1282) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:12:04 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7ffb6240b5a0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ffb6240b5a0 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1347, cores: 2)
+spawned uWSGI worker 2 (pid: 1348, cores: 2)
+spawned uWSGI worker 3 (pid: 1349, cores: 2)
+spawned uWSGI worker 4 (pid: 1350, cores: 2)
+Python auto-reloader enabled
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1347)...
+Gracefully killing worker 2 (pid: 1348)...
+Gracefully killing worker 3 (pid: 1349)...
+Gracefully killing worker 4 (pid: 1350)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Fri Feb 24 15:17:05 2017 - worker 1 (pid: 1347) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:17:05 2017 - worker 2 (pid: 1348) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:17:05 2017 - worker 3 (pid: 1349) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:17:05 2017 - worker 4 (pid: 1350) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:17:06 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fd202605530
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fd202605530 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1369, cores: 2)
+spawned uWSGI worker 2 (pid: 1370, cores: 2)
+spawned uWSGI worker 3 (pid: 1371, cores: 2)
+Python auto-reloader enabled
+spawned uWSGI worker 4 (pid: 1372, cores: 2)
+meshId=58502561&tag=&ver=
+58502561
+
+
+[2017-02-24 15:17:13,863] ERROR in app: Exception on /mesh/meshId=58502561&tag=&ver= [GET]
+Traceback (most recent call last):
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 477, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 587, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 28, in get
+    rec = Recommend(mesh_id, tag, ver)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 41, in __init__
+    self.log_file_handler = TimedRotatingFileHandler(filename=self.log_filename, when="D", filemode='a', interval=1, backupCount=7)
+TypeError: __init__() got an unexpected keyword argument 'filemode'
+{address space usage: 2551844864 bytes/2433MB} {rss usage: 15179776 bytes/14MB} [pid: 1372|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:17:13 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 37 bytes in 11 msecs (HTTP/1.1 500) 2 headers in 90 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Gracefully killing worker 3 (pid: 1371)...
+Gracefully killing worker 1 (pid: 1369)...
+Gracefully killing worker 2 (pid: 1370)...
+Gracefully killing worker 4 (pid: 1372)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+meshId=58502561&tag=&ver=
+58502561
+
+
+[2017-02-24 15:18:15,907] ERROR in app: Exception on /mesh/meshId=58502561&tag=&ver= [GET]
+Traceback (most recent call last):
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 477, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 587, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 28, in get
+    rec = Recommend(mesh_id, tag, ver)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 41, in __init__
+    self.log_file_handler = TimedRotatingFileHandler(filename=self.log_filename, when="D", interval=1, backupCount=7)
+TypeError: __init__() got an unexpected keyword argument 'filemode'
+{address space usage: 2551316480 bytes/2433MB} {rss usage: 15216640 bytes/14MB} [pid: 1372|app: 0|req: 2/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:18:15 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 37 bytes in 2 msecs (HTTP/1.1 500) 2 headers in 90 bytes (2 switches on core 1)
+worker 4 buried after 33 seconds
+worker 3 buried after 33 seconds
+worker 2 buried after 33 seconds
+Fri Feb 24 15:18:44 2017 - worker 1 (pid: 1369) is taking too much time to die...NO MERCY !!!
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:18:45 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7f9dd9d005f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9dd9d005f0 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1382, cores: 2)
+spawned uWSGI worker 2 (pid: 1383, cores: 2)
+spawned uWSGI worker 3 (pid: 1384, cores: 2)
+spawned uWSGI worker 4 (pid: 1385, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+INFO:root:mesh_id:[58502561] Begin Connect
+newnewnewnew
+INFO:root:mesh_id:[58502561] user not in redis _tt_User.
+2 99
+INFO:root:[58502561] match result user:[]
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15040512 bytes/14MB} [pid: 1385|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:18:49 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 69 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1382)...
+Gracefully killing worker 4 (pid: 1385)...
+Gracefully killing worker 2 (pid: 1383)...
+Gracefully killing worker 3 (pid: 1384)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+INFO:root:mesh_id:[58502561] Begin Connect
+newnewnewnew
+INFO:root:mesh_id:[58502561] user not in redis _tt_User.
+2 99
+INFO:root:[58502561] match result user:[]
+{address space usage: 2551054336 bytes/2432MB} {rss usage: 15089664 bytes/14MB} [pid: 1385|app: 0|req: 2/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:20:04 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 88 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 4 buried after 36 seconds
+Fri Feb 24 15:20:30 2017 - worker 1 (pid: 1382) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:20:30 2017 - worker 2 (pid: 1383) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:20:30 2017 - worker 3 (pid: 1384) is taking too much time to die...NO MERCY !!!
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:20:31 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fc8cac0a410
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc8cac0a410 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1396, cores: 2)
+spawned uWSGI worker 2 (pid: 1397, cores: 2)
+spawned uWSGI worker 3 (pid: 1398, cores: 2)
+spawned uWSGI worker 4 (pid: 1399, cores: 2)
+Python auto-reloader enabled
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1396)...
+Gracefully killing worker 2 (pid: 1397)...
+Gracefully killing worker 3 (pid: 1398)...
+Gracefully killing worker 4 (pid: 1399)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Fri Feb 24 15:22:03 2017 - worker 1 (pid: 1396) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:22:03 2017 - worker 2 (pid: 1397) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:22:03 2017 - worker 3 (pid: 1398) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:22:03 2017 - worker 4 (pid: 1399) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:22:04 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fede0e00ae0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fede0e00ae0 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1407, cores: 2)
+spawned uWSGI worker 2 (pid: 1408, cores: 2)
+spawned uWSGI worker 3 (pid: 1409, cores: 2)
+spawned uWSGI worker 4 (pid: 1410, cores: 2)
+Python auto-reloader enabled
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1407)...
+Gracefully killing worker 4 (pid: 1410)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Gracefully killing worker 2 (pid: 1408)...
+Gracefully killing worker 3 (pid: 1409)...
+Fri Feb 24 15:23:09 2017 - worker 1 (pid: 1407) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:23:09 2017 - worker 2 (pid: 1408) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:23:09 2017 - worker 3 (pid: 1409) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:23:09 2017 - worker 4 (pid: 1410) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:23:10 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fa371d00ce0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa371d00ce0 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1418, cores: 2)
+spawned uWSGI worker 2 (pid: 1419, cores: 2)
+spawned uWSGI worker 3 (pid: 1420, cores: 2)
+spawned uWSGI worker 4 (pid: 1421, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15020032 bytes/14MB} [pid: 1419|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:23:19 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 78 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15011840 bytes/14MB} [pid: 1421|app: 0|req: 1/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:23:42 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 181 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15044608 bytes/14MB} [pid: 1419|app: 0|req: 2/3] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:23:43 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 301 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15085568 bytes/14MB} [pid: 1419|app: 0|req: 3/4] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:23:44 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 59 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 1419)...
+Gracefully killing worker 3 (pid: 1420)...
+Gracefully killing worker 4 (pid: 1421)...
+Gracefully killing worker 1 (pid: 1418)...
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+worker 4 buried after 6 seconds
+worker 1 buried after 6 seconds
+newnewnewnew
+2 99
+{address space usage: 2551054336 bytes/2432MB} {rss usage: 15040512 bytes/14MB} [pid: 1420|app: 0|req: 1/5] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:29:22 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 686 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 3 buried after 7 seconds
+Fri Feb 24 15:30:17 2017 - worker 2 (pid: 1419) is taking too much time to die...NO MERCY !!!
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:30:18 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7febd2e05ed0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7febd2e05ed0 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1452, cores: 2)
+spawned uWSGI worker 2 (pid: 1453, cores: 2)
+spawned uWSGI worker 3 (pid: 1454, cores: 2)
+spawned uWSGI worker 4 (pid: 1455, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+[2017-02-24 15:30:38,419] ERROR in app: Exception on /mesh/meshId=58502561&tag=&ver= [GET]
+Traceback (most recent call last):
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 477, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 587, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 28, in get
+    rec = Recommend(mesh_id, tag, ver)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 41, in __init__
+    self.log_file_handler = TimedRotatingFileHandler(format=self.log_format,filename=self.log_filename, when="D", interval=1, backupCount=7)
+TypeError: __init__() got an unexpected keyword argument 'format'
+{address space usage: 2551844864 bytes/2433MB} {rss usage: 15171584 bytes/14MB} [pid: 1455|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:30:38 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 37 bytes in 9 msecs (HTTP/1.1 500) 2 headers in 90 bytes (1 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+[2017-02-24 15:30:40,085] ERROR in app: Exception on /mesh/meshId=58502561&tag=&ver= [GET]
+Traceback (most recent call last):
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 477, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 587, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 28, in get
+    rec = Recommend(mesh_id, tag, ver)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 41, in __init__
+    self.log_file_handler = TimedRotatingFileHandler(format=self.log_format,filename=self.log_filename, when="D", interval=1, backupCount=7)
+TypeError: __init__() got an unexpected keyword argument 'format'
+{address space usage: 2552107008 bytes/2433MB} {rss usage: 15216640 bytes/14MB} [pid: 1455|app: 0|req: 2/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:30:40 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 37 bytes in 1 msecs (HTTP/1.1 500) 2 headers in 90 bytes (2 switches on core 1)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1452)...
+Gracefully killing worker 3 (pid: 1454)...
+Gracefully killing worker 4 (pid: 1455)...
+Gracefully killing worker 2 (pid: 1453)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+meshId=58502561&tag=&ver=
+58502561
+
+
+[2017-02-24 15:31:34,118] ERROR in app: Exception on /mesh/meshId=58502561&tag=&ver= [GET]
+Traceback (most recent call last):
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 477, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 587, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 28, in get
+    rec = Recommend(mesh_id, tag, ver)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 41, in __init__
+    self.log_file_handler = TimedRotatingFileHandler(filename=self.log_filename, when="D", interval=1, backupCount=7)
+TypeError: __init__() got an unexpected keyword argument 'format'
+{address space usage: 2551316480 bytes/2433MB} {rss usage: 15163392 bytes/14MB} [pid: 1453|app: 0|req: 1/3] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:31:34 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 37 bytes in 12 msecs (HTTP/1.1 500) 2 headers in 90 bytes (2 switches on core 1)
+worker 3 buried after 13 seconds
+worker 2 buried after 13 seconds
+Fri Feb 24 15:32:22 2017 - worker 1 (pid: 1452) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:32:22 2017 - worker 4 (pid: 1455) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:32:23 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fc96040a530
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc96040a530 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1476, cores: 2)
+spawned uWSGI worker 2 (pid: 1477, cores: 2)
+spawned uWSGI worker 3 (pid: 1478, cores: 2)
+spawned uWSGI worker 4 (pid: 1479, cores: 2)
+Python auto-reloader enabled
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 1477)...
+Gracefully killing worker 1 (pid: 1476)...
+Gracefully killing worker 4 (pid: 1479)...
+Gracefully killing worker 3 (pid: 1478)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Fri Feb 24 15:37:17 2017 - worker 1 (pid: 1476) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:37:17 2017 - worker 2 (pid: 1477) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:37:17 2017 - worker 3 (pid: 1478) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:37:17 2017 - worker 4 (pid: 1479) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:37:18 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7f9b68c0a390
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9b68c0a390 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1490, cores: 2)
+spawned uWSGI worker 2 (pid: 1491, cores: 2)
+spawned uWSGI worker 3 (pid: 1492, cores: 2)
+Python auto-reloader enabled
+spawned uWSGI worker 4 (pid: 1493, cores: 2)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+newnewnewnew
+2 99
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 11415552 bytes/10MB} [pid: 1490|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:37:29 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 271 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 14983168 bytes/14MB} [pid: 1490|app: 0|req: 2/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:37:53 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 1020 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1490)...
+Gracefully killing worker 2 (pid: 1491)...
+Gracefully killing worker 3 (pid: 1492)...
+Gracefully killing worker 4 (pid: 1493)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+newnewnewnew
+2 99
+{address space usage: 2551054336 bytes/2432MB} {rss usage: 14901248 bytes/14MB} [pid: 1492|app: 0|req: 1/3] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:39:06 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 154 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 3 buried after 10 seconds
+Fri Feb 24 15:39:58 2017 - worker 1 (pid: 1490) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:39:58 2017 - worker 2 (pid: 1491) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 15:39:58 2017 - worker 4 (pid: 1493) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:39:59 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7f9c28d01620
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9c28d01620 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1516, cores: 2)
+spawned uWSGI worker 2 (pid: 1517, cores: 2)
+spawned uWSGI worker 3 (pid: 1518, cores: 2)
+spawned uWSGI worker 4 (pid: 1519, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 14970880 bytes/14MB} [pid: 1518|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:40:03 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 234 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1516)...
+Gracefully killing worker 2 (pid: 1517)...
+Gracefully killing worker 4 (pid: 1519)...
+Gracefully killing worker 3 (pid: 1518)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2552102912 bytes/2433MB} {rss usage: 15015936 bytes/14MB} [pid: 1518|app: 0|req: 2/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:43:21 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 333 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 4 buried after 14 seconds
+worker 3 buried after 14 seconds
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2552102912 bytes/2433MB} {rss usage: 14991360 bytes/14MB} [pid: 1517|app: 0|req: 1/3] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:43:56 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 205 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 2 buried after 48 seconds
+worker 1 buried after 48 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:43:56 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7f9ee1d07c00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9ee1d07c00 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1538, cores: 2)
+spawned uWSGI worker 2 (pid: 1539, cores: 2)
+spawned uWSGI worker 3 (pid: 1540, cores: 2)
+spawned uWSGI worker 4 (pid: 1541, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+INFO:root:mesh_id:[58502561] Begin Connect
+newnewnewnew
+INFO:root:mesh_id:[58502561] user not in redis _tt_User.
+2 99
+INFO:root:[58502561] match result user:[]
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 14897152 bytes/14MB} [pid: 1540|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:44:13 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 286 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 1539)...
+Gracefully killing worker 3 (pid: 1540)...
+Gracefully killing worker 4 (pid: 1541)...
+Gracefully killing worker 1 (pid: 1538)...
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+INFO:root:mesh_id:[58502561] Begin Connect
+INFO:root:mesh_id:[58502561] user not in redis _tt_User.
+INFO:root:[58502561] match result user:[]
+{address space usage: 2552102912 bytes/2433MB} {rss usage: 14946304 bytes/14MB} [pid: 1540|app: 0|req: 2/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:45:37 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 166 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 4 buried after 34 seconds
+worker 3 buried after 34 seconds
+worker 2 buried after 34 seconds
+Fri Feb 24 15:46:05 2017 - worker 1 (pid: 1538) is taking too much time to die...NO MERCY !!!
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 15:46:06 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fb072c0ac60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb072c0ac60 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1552, cores: 2)
+spawned uWSGI worker 2 (pid: 1553, cores: 2)
+spawned uWSGI worker 3 (pid: 1554, cores: 2)
+spawned uWSGI worker 4 (pid: 1555, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 14942208 bytes/14MB} [pid: 1554|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 15:48:00 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 339 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1552)...
+Gracefully killing worker 2 (pid: 1553)...
+Gracefully killing worker 3 (pid: 1554)...
+Gracefully killing worker 4 (pid: 1555)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Fri Feb 24 16:24:51 2017 - worker 1 (pid: 1552) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:24:51 2017 - worker 2 (pid: 1553) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:24:51 2017 - worker 3 (pid: 1554) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:24:51 2017 - worker 4 (pid: 1555) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 16:24:52 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7f9ff8500af0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9ff8500af0 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1646, cores: 2)
+spawned uWSGI worker 2 (pid: 1647, cores: 2)
+spawned uWSGI worker 3 (pid: 1648, cores: 2)
+spawned uWSGI worker 4 (pid: 1649, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 14864384 bytes/14MB} [pid: 1648|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:27:02 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 93 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1646)...
+Gracefully killing worker 3 (pid: 1648)...
+Gracefully killing worker 4 (pid: 1649)...
+Gracefully killing worker 2 (pid: 1647)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+worker 4 buried after 24 seconds
+worker 2 buried after 24 seconds
+{address space usage: 2552102912 bytes/2433MB} {rss usage: 14913536 bytes/14MB} [pid: 1648|app: 0|req: 2/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:28:12 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 182 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 3 buried after 25 seconds
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2552102912 bytes/2433MB} {rss usage: 14864384 bytes/14MB} [pid: 1646|app: 0|req: 1/3] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:28:28 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 73 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 1 buried after 41 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 16:28:29 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7ff8fb40a830
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ff8fb40a830 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1668, cores: 2)
+spawned uWSGI worker 2 (pid: 1669, cores: 2)
+Python auto-reloader enabled
+spawned uWSGI worker 3 (pid: 1670, cores: 2)
+spawned uWSGI worker 4 (pid: 1671, cores: 2)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 14966784 bytes/14MB} [pid: 1669|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:28:52 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 182 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 14950400 bytes/14MB} [pid: 1671|app: 0|req: 1/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:29:03 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 975 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 14991360 bytes/14MB} [pid: 1670|app: 0|req: 1/3] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:29:05 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 1849 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 14999552 bytes/14MB} [pid: 1671|app: 0|req: 2/4] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:29:08 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 385 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 3 (pid: 1670)...
+Gracefully killing worker 1 (pid: 1668)...
+Gracefully killing worker 2 (pid: 1669)...
+Gracefully killing worker 4 (pid: 1671)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Fri Feb 24 16:30:30 2017 - worker 1 (pid: 1668) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:30:30 2017 - worker 2 (pid: 1669) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:30:30 2017 - worker 3 (pid: 1670) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:30:30 2017 - worker 4 (pid: 1671) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 16:30:31 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fac084002e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fac084002e0 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1690, cores: 2)
+spawned uWSGI worker 2 (pid: 1691, cores: 2)
+spawned uWSGI worker 3 (pid: 1692, cores: 2)
+spawned uWSGI worker 4 (pid: 1693, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15032320 bytes/14MB} [pid: 1690|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:28 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 91 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15003648 bytes/14MB} [pid: 1693|app: 0|req: 1/2] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:29 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 92 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15065088 bytes/14MB} [pid: 1693|app: 0|req: 2/3] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:30 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 282 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15089664 bytes/14MB} [pid: 1690|app: 0|req: 2/4] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:31 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 146 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15106048 bytes/14MB} [pid: 1690|app: 0|req: 3/5] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:31 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 92 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15093760 bytes/14MB} [pid: 1693|app: 0|req: 3/6] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:32 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 61 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15101952 bytes/14MB} [pid: 1693|app: 0|req: 4/7] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:32 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15130624 bytes/14MB} [pid: 1690|app: 0|req: 4/8] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:33 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 53 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15114240 bytes/14MB} [pid: 1693|app: 0|req: 5/9] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:33 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 61 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15114240 bytes/14MB} [pid: 1693|app: 0|req: 6/10] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:34 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 279 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15114240 bytes/14MB} [pid: 1693|app: 0|req: 7/11] 172.16.0.195 () {24 vars in 347 bytes} [Fri Feb 24 16:47:36 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 46 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1690)...
+Gracefully killing worker 2 (pid: 1691)...
+Gracefully killing worker 3 (pid: 1692)...
+Gracefully killing worker 4 (pid: 1693)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Fri Feb 24 16:49:02 2017 - worker 1 (pid: 1690) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:49:02 2017 - worker 2 (pid: 1691) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:49:02 2017 - worker 3 (pid: 1692) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:49:02 2017 - worker 4 (pid: 1693) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 16:49:03 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fc9d1d00860
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc9d1d00860 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1733, cores: 2)
+spawned uWSGI worker 2 (pid: 1734, cores: 2)
+spawned uWSGI worker 3 (pid: 1735, cores: 2)
+spawned uWSGI worker 4 (pid: 1736, cores: 2)
+Python auto-reloader enabled
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1733)...
+Gracefully killing worker 2 (pid: 1734)...
+Gracefully killing worker 3 (pid: 1735)...
+Gracefully killing worker 4 (pid: 1736)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Fri Feb 24 16:53:35 2017 - worker 1 (pid: 1733) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:53:35 2017 - worker 2 (pid: 1734) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:53:35 2017 - worker 3 (pid: 1735) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 16:53:35 2017 - worker 4 (pid: 1736) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 16:53:36 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7ffb83c0b010
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ffb83c0b010 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1746, cores: 2)
+spawned uWSGI worker 2 (pid: 1747, cores: 2)
+spawned uWSGI worker 3 (pid: 1748, cores: 2)
+spawned uWSGI worker 4 (pid: 1749, cores: 2)
+Python auto-reloader enabled
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1746)...
+Gracefully killing worker 2 (pid: 1747)...
+Gracefully killing worker 3 (pid: 1748)...
+Gracefully killing worker 4 (pid: 1749)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Fri Feb 24 17:59:09 2017 - worker 1 (pid: 1746) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 17:59:09 2017 - worker 2 (pid: 1747) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 17:59:09 2017 - worker 3 (pid: 1748) is taking too much time to die...NO MERCY !!!
+Fri Feb 24 17:59:09 2017 - worker 4 (pid: 1749) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Feb 24 17:59:10 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7f9b23501840
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9b23501840 pid: 1272 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1272)
+spawned uWSGI worker 1 (pid: 1889, cores: 2)
+spawned uWSGI worker 2 (pid: 1890, cores: 2)
+spawned uWSGI worker 3 (pid: 1891, cores: 2)
+spawned uWSGI worker 4 (pid: 1892, cores: 2)
+Python auto-reloader enabled
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Sat Feb 25 10:56:51 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: 192.168.0.108
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Can't assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.14 (64bit) on [Mon Mar  6 14:48:26 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7ff7dbd00da0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ff7dbd00da0 pid: 4954 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4954)
+spawned uWSGI worker 1 (pid: 4961, cores: 2)
+spawned uWSGI worker 2 (pid: 4962, cores: 2)
+spawned uWSGI worker 3 (pid: 4963, cores: 2)
+spawned uWSGI worker 4 (pid: 4964, cores: 2)
+Python auto-reloader enabled
+{address space usage: 2553593856 bytes/2435MB} {rss usage: 16089088 bytes/15MB} [pid: 4964|app: 0|req: 1/1] 172.16.0.195 () {32 vars in 644 bytes} [Mon Mar  6 14:49:00 2017] GET /test => generated 267 bytes in 222 msecs (HTTP/1.1 301) 3 headers in 137 bytes (2 switches on core 0)
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 10096640 bytes/9MB} [pid: 4963|app: 0|req: 1/2] 172.16.0.195 () {32 vars in 646 bytes} [Mon Mar  6 14:49:00 2017] GET /test/ => generated 19 bytes in 230 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+{address space usage: 2553593856 bytes/2435MB} {rss usage: 16171008 bytes/15MB} [pid: 4964|app: 0|req: 2/3] 172.16.0.195 () {32 vars in 623 bytes} [Mon Mar  6 14:49:01 2017] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (2 switches on core 1)
+meshId=37103643&tag=lightskinsexy aab&ver=
+37103643
+lightskinsexy aab
+
+_tt_waiting_4_match_list_lightskinsexy aab
+create connect redis
+newnewnewnew
+2 99
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 15036416 bytes/14MB} [pid: 4963|app: 0|req: 2/4] 172.16.0.195 () {32 vars in 732 bytes} [Mon Mar  6 14:49:07 2017] GET /mesh/meshId=37103643&tag=lightskinsexy%20aab&ver= => generated 15 bytes in 223 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=37103643&tag=lighaab&ver=
+37103643
+lighaab
+
+_tt_waiting_4_match_list_lighaab
+newnewnewnew
+2 99
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 15069184 bytes/14MB} [pid: 4963|app: 0|req: 3/5] 172.16.0.195 () {32 vars in 710 bytes} [Mon Mar  6 14:49:16 2017] GET /mesh/meshId=37103643&tag=lighaab&ver= => generated 15 bytes in 69 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=37103643
+[2017-03-06 14:49:21,094] ERROR in app: Exception on /mesh/meshId=37103643 [GET]
+Traceback (most recent call last):
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 477, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/holazhai/anaconda/lib/python2.7/site-packages/flask_restful/__init__.py", line 587, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py", line 22, in get
+    tag = arg.split("&")[1].split('=')[1]
+IndexError: list index out of range
+{address space usage: 2553856000 bytes/2435MB} {rss usage: 17149952 bytes/16MB} [pid: 4964|app: 0|req: 3/6] 172.16.0.195 () {24 vars in 327 bytes} [Mon Mar  6 14:49:21 2017] GET /mesh/meshId=37103643 => generated 37 bytes in 7 msecs (HTTP/1.1 500) 2 headers in 90 bytes (2 switches on core 1)
+meshId=37103643&tag=lighaab&ver=
+37103643
+lighaab
+
+_tt_waiting_4_match_list_lighaab
+newnewnewnew
+2 99
+{address space usage: 2552631296 bytes/2434MB} {rss usage: 15077376 bytes/14MB} [pid: 4963|app: 0|req: 4/7] 172.16.0.195 () {24 vars in 361 bytes} [Mon Mar  6 14:49:30 2017] GET /mesh/meshId=37103643&tag=lighaab&ver= => generated 15 bytes in 54 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 4961)...
+Gracefully killing worker 2 (pid: 4962)...
+Gracefully killing worker 4 (pid: 4964)...
+Gracefully killing worker 3 (pid: 4963)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+meshId=37103643&tag=lighaab&ver=
+37103643
+lighaab
+
+_tt_waiting_4_match_list_lighaab
+newnewnewnew
+2 99
+{address space usage: 2552102912 bytes/2433MB} {rss usage: 15097856 bytes/14MB} [pid: 4963|app: 0|req: 5/8] 172.16.0.195 () {24 vars in 361 bytes} [Mon Mar  6 14:52:57 2017] GET /mesh/meshId=37103643&tag=lighaab&ver= => generated 15 bytes in 45 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+worker 4 buried after 8 seconds
+worker 3 buried after 8 seconds
+Mon Mar  6 14:53:50 2017 - worker 1 (pid: 4961) is taking too much time to die...NO MERCY !!!
+Mon Mar  6 14:53:50 2017 - worker 2 (pid: 4962) is taking too much time to die...NO MERCY !!!
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Mon Mar  6 14:53:51 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fe7125014c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe7125014c0 pid: 4954 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 4954)
+spawned uWSGI worker 1 (pid: 4995, cores: 2)
+spawned uWSGI worker 2 (pid: 4996, cores: 2)
+spawned uWSGI worker 3 (pid: 4997, cores: 2)
+spawned uWSGI worker 4 (pid: 4998, cores: 2)
+Python auto-reloader enabled
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+newnewnewnew
+2 99
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15085568 bytes/14MB} [pid: 4997|app: 0|req: 1/1] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:03:58 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 83 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+newnewnewnew
+2 99
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15081472 bytes/14MB} [pid: 4998|app: 0|req: 1/2] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:04:01 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+newnewnewnew
+2 99
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15130624 bytes/14MB} [pid: 4998|app: 0|req: 2/3] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:04:03 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 38 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15151104 bytes/14MB} [pid: 4997|app: 0|req: 2/4] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:04:40 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 231 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15142912 bytes/14MB} [pid: 4998|app: 0|req: 3/5] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:05:27 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 146 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15159296 bytes/14MB} [pid: 4998|app: 0|req: 4/6] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:05:34 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 196 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+newnewnewnew
+2 99
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15159296 bytes/14MB} [pid: 4998|app: 0|req: 5/7] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:05:36 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 42 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15167488 bytes/14MB} [pid: 4998|app: 0|req: 6/8] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:05:40 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 278 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15196160 bytes/14MB} [pid: 4998|app: 0|req: 7/9] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:07:30 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 73 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+newnewnewnew
+2 99
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15183872 bytes/14MB} [pid: 4997|app: 0|req: 3/10] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:08:06 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 47 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15196160 bytes/14MB} [pid: 4998|app: 0|req: 8/11] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:08:30 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 80 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15196160 bytes/14MB} [pid: 4997|app: 0|req: 4/12] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:08:44 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 116 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15208448 bytes/14MB} [pid: 4997|app: 0|req: 5/13] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:09:28 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 46 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15208448 bytes/14MB} [pid: 4997|app: 0|req: 6/14] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:09:31 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 175 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15208448 bytes/14MB} [pid: 4998|app: 0|req: 9/15] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:09:45 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 277 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15245312 bytes/14MB} [pid: 4998|app: 0|req: 10/16] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:10:14 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 111 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+create connect redis
+newnewnewnew
+2 99
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15114240 bytes/14MB} [pid: 4996|app: 0|req: 1/17] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:12:30 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 115 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15212544 bytes/14MB} [pid: 4997|app: 0|req: 7/18] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:38:05 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 80 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15147008 bytes/14MB} [pid: 4996|app: 0|req: 2/19] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 15:56:57 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 55 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15249408 bytes/14MB} [pid: 4998|app: 0|req: 11/20] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 17:00:40 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 61 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+meshId=58502561&tag=&ver=
+58502561
+
+
+_tt_waiting_4_match_list
+{address space usage: 2551582720 bytes/2433MB} {rss usage: 15171584 bytes/14MB} [pid: 4996|app: 0|req: 3/21] 172.16.0.195 () {24 vars in 347 bytes} [Mon Mar  6 17:04:02 2017] GET /mesh/meshId=58502561&tag=&ver= => generated 15 bytes in 75 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 4995)...
+Gracefully killing worker 2 (pid: 4996)...
+Gracefully killing worker 4 (pid: 4998)...
+Gracefully killing worker 3 (pid: 4997)...
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+[uwsgi-python-reloader] module/file /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/resources/meshrecommend.py has been modified
+Mon Mar  6 17:09:11 2017 - worker 1 (pid: 4995) is taking too much time to die...NO MERCY !!!
+Mon Mar  6 17:09:11 2017 - worker 2 (pid: 4996) is taking too much time to die...NO MERCY !!!
+Mon Mar  6 17:09:11 2017 - worker 3 (pid: 4997) is taking too much time to die...NO MERCY !!!
+Mon Mar  6 17:09:11 2017 - worker 4 (pid: 4998) is taking too much time to die...NO MERCY !!!
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Mon Mar  6 17:09:12 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.0.195:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fd5a3d094b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fd5a3d094b0 pid: 4954 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 4954)
+spawned uWSGI worker 1 (pid: 5448, cores: 2)
+spawned uWSGI worker 2 (pid: 5449, cores: 2)
+spawned uWSGI worker 3 (pid: 5450, cores: 2)
+spawned uWSGI worker 4 (pid: 5451, cores: 2)
+Python auto-reloader enabled
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.0.195:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Mon Mar  6 22:37:29 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: 192.168.0.108
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Can't assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.14 (64bit) on [Thu Apr 20 13:11:33 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.1.20:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7f7ffb503630
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f7ffb503630 pid: 1285 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1285)
+spawned uWSGI worker 1 (pid: 1292, cores: 2)
+spawned uWSGI worker 2 (pid: 1293, cores: 2)
+spawned uWSGI worker 3 (pid: 1294, cores: 2)
+spawned uWSGI worker 4 (pid: 1295, cores: 2)
+Python auto-reloader enabled
+{address space usage: 2552852480 bytes/2434MB} {rss usage: 10166272 bytes/9MB} [pid: 1295|app: 0|req: 1/1] 172.16.1.20 () {32 vars in 635 bytes} [Thu Apr 20 13:12:07 2017] GET / => generated 19 bytes in 10179 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15577088 bytes/14MB} [pid: 1295|app: 0|req: 2/2] 172.16.1.20 () {32 vars in 616 bytes} [Thu Apr 20 13:12:18 2017] GET /favicon.ico => generated 233 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 72 bytes (2 switches on core 1)
+{address space usage: 2553815040 bytes/2435MB} {rss usage: 16269312 bytes/15MB} [pid: 1293|app: 0|req: 1/3] 172.16.1.20 () {32 vars in 643 bytes} [Thu Apr 20 13:12:25 2017] GET /test => generated 265 bytes in 49 msecs (HTTP/1.1 301) 3 headers in 136 bytes (2 switches on core 1)
+{address space usage: 2552852480 bytes/2434MB} {rss usage: 10100736 bytes/9MB} [pid: 1294|app: 0|req: 1/4] 172.16.1.20 () {32 vars in 645 bytes} [Thu Apr 20 13:12:25 2017] GET /test/ => generated 19 bytes in 57 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15577088 bytes/14MB} [pid: 1295|app: 0|req: 3/5] 172.16.1.20 () {24 vars in 295 bytes} [Thu Apr 20 13:12:33 2017] GET /test/ => generated 19 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15577088 bytes/14MB} [pid: 1295|app: 0|req: 4/6] 172.16.1.20 () {32 vars in 645 bytes} [Thu Apr 20 13:21:41 2017] GET /test/ => generated 19 bytes in 183 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+{address space usage: 2552852480 bytes/2434MB} {rss usage: 10129408 bytes/9MB} [pid: 1292|app: 0|req: 1/7] 172.16.1.20 () {32 vars in 645 bytes} [Thu Apr 20 13:22:31 2017] GET /test/ => generated 19 bytes in 221 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15585280 bytes/14MB} [pid: 1295|app: 0|req: 5/8] 172.16.1.20 () {32 vars in 645 bytes} [Thu Apr 20 13:27:56 2017] GET /test/ => generated 19 bytes in 195 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15589376 bytes/14MB} [pid: 1295|app: 0|req: 6/9] 172.16.1.20 () {24 vars in 295 bytes} [Thu Apr 20 13:28:01 2017] GET /test/ => generated 19 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15589376 bytes/14MB} [pid: 1295|app: 0|req: 7/10] 172.16.1.20 () {32 vars in 645 bytes} [Thu Apr 20 13:33:50 2017] GET /test/ => generated 19 bytes in 191 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15593472 bytes/14MB} [pid: 1295|app: 0|req: 8/11] 172.16.1.20 () {32 vars in 645 bytes} [Thu Apr 20 14:32:03 2017] GET /test/ => generated 19 bytes in 26 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 1)
+uwsgi_proto_http_parser() -> client closed connection
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15597568 bytes/14MB} [pid: 1295|app: 0|req: 9/12] 172.16.1.20 () {32 vars in 635 bytes} [Thu Apr 20 14:34:57 2017] GET / => generated 19 bytes in 10020 msecs (HTTP/1.1 200) 2 headers in 71 bytes (2 switches on core 0)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.1.20:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Thu Apr 20 15:20:37 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: bogon
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.1.20:8023  #注： 指定某个固定端口 fd 3
+Python version: 2.7.12 |Anaconda custom (x86_64)| (default, Jul  2 2016, 17:43:17)  [GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)]
+Python main interpreter initialized at 0x7fdee840b320
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 701920 bytes (685 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fdee840b320 pid: 1285 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1285)
+spawned uWSGI worker 1 (pid: 1730, cores: 2)
+spawned uWSGI worker 2 (pid: 1731, cores: 2)
+spawned uWSGI worker 3 (pid: 1732, cores: 2)
+spawned uWSGI worker 4 (pid: 1733, cores: 2)
+Python auto-reloader enabled
+{address space usage: 2552852480 bytes/2434MB} {rss usage: 10219520 bytes/9MB} [pid: 1733|app: 0|req: 1/1] 172.16.1.20 () {40 vars in 722 bytes} [Thu Apr 20 15:21:30 2017] GET / => generated 19 bytes in 10005 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+{address space usage: 2553114624 bytes/2434MB} {rss usage: 15077376 bytes/14MB} [pid: 1732|app: 0|req: 1/2] 172.16.1.20 () {40 vars in 703 bytes} [Thu Apr 20 15:21:41 2017] GET /favicon.ico => generated 233 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+{address space usage: 2553815040 bytes/2435MB} {rss usage: 16146432 bytes/15MB} [pid: 1730|app: 0|req: 1/3] 172.16.1.20 () {40 vars in 730 bytes} [Thu Apr 20 15:25:55 2017] GET /test => generated 265 bytes in 25 msecs (HTTP/1.1 301) 3 headers in 136 bytes (1 switches on core 1)
+{address space usage: 2552852480 bytes/2434MB} {rss usage: 10260480 bytes/9MB} [pid: 1733|app: 0|req: 2/4] 172.16.1.20 () {40 vars in 732 bytes} [Thu Apr 20 15:25:55 2017] GET /test/ => generated 19 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+closing all non-uwsgi socket fds > 2 (max_fd = 4864)...
+found fd 3 mapped to socket 0 (172.16.1.20:8023  #注： 指定某个固定端口)
+running /Users/holazhai/anaconda/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/holazhai/Documents/IPython2/mesh_recommend/myapi/test_config.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Thu Apr 20 23:19:44 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.29) on 07 January 2017 12:00:36
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Sep  1 15:01:16 PDT 2016; root:xnu-3248.60.11~2/RELEASE_X86_64
+nodename: 192.168.0.108
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/holazhai/Documents/IPython2/mesh_recommend/myapi
+detected binary path: /Users/holazhai/anaconda/bin/uwsgi
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 4864
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Can't assign requested address [core/socket.c line 769]

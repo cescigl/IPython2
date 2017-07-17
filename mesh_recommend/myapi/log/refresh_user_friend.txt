@@ -1,0 +1,9 @@
+ [2017-02-06 15:22:58,327]   loadFriendData
+ [2017-02-06 15:44:25,385]   loadFriendData
+ [2017-02-06 15:44:27,430]   write friend info to redis
+ [2017-02-06 18:17:17,760]   loadFriendData
+ [2017-02-06 18:17:20,368]   write friend info to redis
+ [2017-02-06 18:23:22,789]   loadFriendData
+ [2017-02-06 18:23:24,324]   write friend info to redis
+ [2017-02-06 18:34:25,741]   loadFriendData
+ [2017-02-06 18:34:26,677]   write friend info to redis

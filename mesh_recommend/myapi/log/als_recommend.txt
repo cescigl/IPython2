@@ -1,0 +1,59 @@
+ [2017-02-06 14:16:34,943]   loadFriendData
+ [2017-02-06 14:17:47,213]   loadData
+ [2017-02-06 14:17:54,137]   preProcessData
+ [2017-02-06 14:17:54,251]   finished iteration 0 in 0.0241549015045
+ [2017-02-06 14:17:54,270]   finished iteration 1 in 0.0187959671021
+ [2017-02-06 14:17:54,289]   finished iteration 2 in 0.0186998844147
+ [2017-02-06 14:17:54,309]   finished iteration 3 in 0.019287109375
+ [2017-02-06 14:17:54,327]   finished iteration 4 in 0.0185480117798
+ [2017-02-06 14:17:54,346]   finished iteration 5 in 0.0188939571381
+ [2017-02-06 14:17:54,365]   finished iteration 6 in 0.0181910991669
+ [2017-02-06 14:17:54,383]   finished iteration 7 in 0.0185918807983
+ [2017-02-06 14:17:54,402]   finished iteration 8 in 0.0184299945831
+ [2017-02-06 14:17:54,421]   finished iteration 9 in 0.0186140537262
+ [2017-02-06 14:17:54,440]   finished iteration 10 in 0.0187010765076
+ [2017-02-06 14:17:54,458]   finished iteration 11 in 0.0186440944672
+ [2017-02-06 14:17:54,478]   finished iteration 12 in 0.0193319320679
+ [2017-02-06 14:17:54,497]   finished iteration 13 in 0.018492937088
+ [2017-02-06 14:17:54,515]   finished iteration 14 in 0.0181038379669
+ [2017-02-06 14:26:02,665]   saveToRedis
+ [2017-02-07 10:13:23,628]   loadFriendData
+ [2017-02-07 10:13:27,948]   loadData
+ [2017-02-07 10:13:35,560]   preProcessData
+ [2017-02-07 10:13:35,675]   finished iteration 0 in 0.0304489135742
+ [2017-02-07 10:13:35,696]   finished iteration 1 in 0.0211980342865
+ [2017-02-07 10:13:35,717]   finished iteration 2 in 0.0210959911346
+ [2017-02-07 10:13:35,739]   finished iteration 3 in 0.0220551490784
+ [2017-02-07 10:13:35,760]   finished iteration 4 in 0.0207388401031
+ [2017-02-07 10:13:35,780]   finished iteration 5 in 0.0197370052338
+ [2017-02-07 10:13:35,801]   finished iteration 6 in 0.0207378864288
+ [2017-02-07 10:13:35,822]   finished iteration 7 in 0.0204589366913
+ [2017-02-07 10:13:35,843]   finished iteration 8 in 0.0215690135956
+ [2017-02-07 10:13:35,863]   finished iteration 9 in 0.0198140144348
+ [2017-02-07 10:13:35,884]   finished iteration 10 in 0.0198860168457
+ [2017-02-07 10:13:35,903]   finished iteration 11 in 0.0194990634918
+ [2017-02-07 10:13:35,924]   finished iteration 12 in 0.0202620029449
+ [2017-02-07 10:13:35,945]   finished iteration 13 in 0.0209128856659
+ [2017-02-07 10:13:35,966]   finished iteration 14 in 0.0206999778748
+ [2017-02-07 10:18:11,010]   saveToRedis
+ [2017-02-08 11:20:46,500]   loadFriendData
+ [2017-02-08 11:20:48,381]   loadData
+ [2017-02-08 11:20:56,805]   preProcessData
+ [2017-02-08 11:20:56,934]   finished iteration 0 in 0.029865026474
+ [2017-02-08 11:20:56,959]   finished iteration 1 in 0.0246770381927
+ [2017-02-08 11:20:56,981]   finished iteration 2 in 0.0223867893219
+ [2017-02-08 11:20:57,005]   finished iteration 3 in 0.0230388641357
+ [2017-02-08 11:20:57,026]   finished iteration 4 in 0.0211341381073
+ [2017-02-08 11:20:57,050]   finished iteration 5 in 0.0239310264587
+ [2017-02-08 11:20:57,071]   finished iteration 6 in 0.0213360786438
+ [2017-02-08 11:20:57,094]   finished iteration 7 in 0.0227270126343
+ [2017-02-08 11:20:57,117]   finished iteration 8 in 0.0224931240082
+ [2017-02-08 11:20:57,140]   finished iteration 9 in 0.0224649906158
+ [2017-02-08 11:20:57,161]   finished iteration 10 in 0.0216648578644
+ [2017-02-08 11:20:57,185]   finished iteration 11 in 0.0233459472656
+ [2017-02-08 11:20:57,207]   finished iteration 12 in 0.0221898555756
+ [2017-02-08 11:20:57,230]   finished iteration 13 in 0.0223309993744
+ [2017-02-08 11:20:57,252]   finished iteration 14 in 0.0216789245605
+ [2017-02-08 11:28:13,994]   saveToRedis
+ [2017-04-21 15:13:30,579]   loadFriendData
+ [2017-04-21 15:33:57,005]   loadData

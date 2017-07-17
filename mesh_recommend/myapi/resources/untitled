@@ -1,0 +1,30 @@
+
+import json
+result = ''
+for i in a['Items']:
+    temp = ''
+    extra = json.loads(i['extra'])
+    print extra
+    if i['eventType'] == 'BECOME_FRIEND':
+        temp = i['eventType'] + ',' + str(0) + ',' + str(0) + ',' + i['fromUserId'] + ',' + i['toUserId']
+    else:
+        temp = i['eventType'] + ',' + str(extra['duration']) + ',' + extra['matchType'] + ',' + i['fromUserId'] + ',' + i['toUserId']
+    result = result + temp + '\n'
+
+
+cat event.log | grep -v INCOMING
+
+
+BECOME_FRIEND #5
+CALL_ACCEPTED
+CALL_BUSY
+CALL_CANCEL
+CALL_HANGUP
+INCOMING_ACCEPT
+INCOMING_HANGUP
+INCOMING_REJECT
+LIVING_HANGUP
+LIVING_USER_HANGUP # 通话中我挂断
+
+MISSED_CALL #无用 
+NO_ANSWER #无用 
